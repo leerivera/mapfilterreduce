@@ -37,6 +37,17 @@
             let taskNames = tasks.map((task) => task.name);
             // always return a value
             console.log(taskNames)
+
+            const words = ['Python', "Bear", "Snake", "Pig", "Goose"]
+
+            // let results = words.filter(function(word, index, array){
+            //     return word.length > 8 // filter returns true or false
+            // })
+
+            let results = words.filter(word => word.length < 8);
+            console.log(results);
+
+
         </script>
     </body>
 </html>
