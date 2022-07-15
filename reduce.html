@@ -33,7 +33,7 @@
 
             let totalTime = tasks.reduce(function(total, task, index, array){
                         return total + task.duration;
-            });
+            }, 0);
             console.log(totalTime)
 
             let total = 0;
